@@ -15,6 +15,7 @@ public class JavaConfig {
 	@Bean
 	public ExeTimeAspect2 exeTimeAspect() {
 		System.out.println("======");
+		System.out.println("======");
 		return new ExeTimeAspect2();
 	}
 	
