@@ -11,9 +11,10 @@ import chap07.RecCalculator;
 @Configuration
 @EnableAspectJAutoProxy
 public class JavaConfig {
-	
+
 	@Bean
 	public ExeTimeAspect2 exeTimeAspect() {
+		System.out.println("======");
 		return new ExeTimeAspect2();
 	}
 	
